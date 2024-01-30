@@ -1,0 +1,63 @@
+/* body * {
+  border: 1px red solid;
+} */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.contacts {
+  height: 300px;
+  width: 40%;
+  border-radius: 7%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  padding-top: 8px;
+  align-items: center;
+  box-shadow: 0px 0px 17px gray;
+}
+
+.contact-card {
+  margin-top: 7px;
+  width: 84%;
+}
+
+.cat {
+  width: 100%;
+  border-radius: 7%;
+}
+
+.mail,
+.call {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  height: 25px;
+  gap: 8px;
+}
+
+.info--group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.name {
+  font-family: Cambria;
+  font-weight: bold;
+  font-size: larger;
+  padding-bottom: 4px;
+}
+
+.a,
+.b {
+  display: flex;
+  flex-direction: row;
+  gap: 34px;
+  justify-content: center;
+  margin-bottom: 22px;
+  margin-top: 20px;
+}
